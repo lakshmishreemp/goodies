@@ -49,6 +49,31 @@ publicstatic<string,double extendscomprable<double>>map<string,double>
     array1[j]=treemap.get(I1.next());
     j++;
     }
+    int pos1=0;
+    int pos2;
+    Double result=array1[M]-array1[0];
+    for(int h=M ;h>=N-1;h++)
+    {
+    int result1=array1[h]-array1[h-N+1];
+    if(result>result1)
+    {
+    result=result1;
+    pos1=h;
+    pos2=h-N+1;
+    }
+    system.out.println("Here the goodies are selected for drive");
+    set set=sortedMap.entrySet();
+    Iterator i=Set.iterator();
+    for(int l=M ;l>=0;l--)
+    {
+    if(i.hasNext()){
+    Map.entry me=(map.entry):.next();
+    }
+    if(array1(Pos2)=me.getvalue())
+    {
+    system.out.println(me.getkey()+me.getalue());
+    pos2=pos2+1;
+    }}}};
     
                     
   
